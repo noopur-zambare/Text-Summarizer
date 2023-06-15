@@ -65,7 +65,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("Summarize Text")
+st.title("Text Summarizer")
 sentence = st.text_area('Paste your text:', height=30)
 button = st.button("Summarize")
 clear_cache_button = st.button("Clear Cache")
